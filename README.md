@@ -1,4 +1,4 @@
-# SIEM Home Lab — Splunk Log Monitoring
+# SIEM Home Lab - Splunk Log Monitoring
 
 A hands-on home lab using **Splunk Enterprise 10.4.1** to ingest and analyze Windows Event Logs, practice SPL (Search Processing Language), and build a security monitoring dashboard.
 
@@ -55,8 +55,8 @@ Saved as a dashboard panel to compare successful vs. failed authentication over 
 ### 4. Dashboard
 
 Built the **Login Activity Overview** dashboard with a global time-range picker:
-- **Successful vs Failed Logins (24h)** — column chart of 4624 vs 4625 over time; the failed-login test burst is clearly visible as an anomaly against the baseline.
-- **Top Accounts by Logon Count** — `| top limit=10 Account_Name` to show which accounts authenticate most.
+- **Successful vs Failed Logins (24h)** - column chart of 4624 vs 4625 over time; the failed-login test burst is clearly visible as an anomaly against the baseline.
+- **Top Accounts by Logon Count** - `| top limit=10 Account_Name` to show which accounts authenticate most.
 
 ## Screenshots
 
